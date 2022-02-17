@@ -1,0 +1,81 @@
+body {
+  background-color: #9b59b6;
+}
+
+input {
+  padding: 7px 15px;
+  border: none;
+  border-radius: 0.25rem;
+}
+
+select {
+  padding: 6px 15px;
+  border: none;
+  border-radius: 0.25rem;
+}
+
+img {
+  max-width: 32px;
+  max-height: 32px;
+  border-radius: 50%;
+}
+
+.container {
+  display: flex;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  border: none;
+  border-radius: 0.25rem;
+  background-color: #f7f7f7;
+}
+
+.gender {
+  margin-right: 2rem;
+}
+
+.title {
+  font-size: 1rem;
+}
+
+.card-title {
+  display: flex;
+  background-color: #f7f7f7;
+  border-bottom: 0.5px solid #e0e0e0;
+  border-top-right-radius: 0.25rem;
+  border-top-left-radius: 0.25rem;
+}
+
+.card-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+}
+
+.card-information-name {
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 1rem 0 0.5rem 0;
+}
+
+.card-information-email {
+  font-size: 1rem;
+  font-weight: 400;
+  margin: 0 0 1rem 0;
+}
+
+.card-content {
+  padding: 2px 16px;
+}
+
+.cards-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto auto;
+  column-gap: 10px;
+  row-gap: 15px;
+  margin-top: 1rem;
+}
